@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Albanian Aviators Worldwide</title>
+<meta name="description" content="Get in touch with Albanian Aviators Worldwide or join the network.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="images/logo.png" alt="Albanian Aviators Worldwide logo" class="brand-logo">
+      <span>Albanian Aviators<span class="brand-sub">Worldwide</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="members.html">Members</a>
+      <a href="news.html">News</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="contact.html" class="btn btn-primary nav-cta">Join Us</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Get In Touch</span>
+    <h1>Join the network, or just say hello.</h1>
+    <p>Whether you're a licensed pilot, a cadet, or an aviation professional — we'd love to hear where you fly.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-wrap">
+      <div>
+        <h2>Send us a message</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="role">I am a...</label>
+            <select id="role" name="role">
+              <option value="licensed-pilot">Licensed Pilot</option>
+              <option value="cadet">Cadet / Student Pilot</option>
+              <option value="military">Military Aviator</option>
+              <option value="professional">Aviation Professional</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="location">Based In (City, Country)</label>
+            <input type="text" id="location" name="location" placeholder="e.g. Frankfurt, Germany">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us a bit about yourself and your aviation background..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note" id="form-status">This is a static demo form — connect it to a backend or a service like Formspree to receive real submissions.</p>
+        </form>
+      </div>
+
+      <div>
+        <h2>Contact info</h2>
+        <div class="contact-info-item">
+          <div class="icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p>hello@albanianaviatorsworldwide.org</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div>
+            <h3>Membership</h3>
+            <p>Open to all licensed pilots, cadets, and aviation professionals of Albanian heritage. No membership fee.</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <div>
+            <h3>Regional Chapters</h3>
+            <p>Active chapters in Germany, the UK, the US, Canada, and the UAE — with more forming regularly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Albanian Aviators Worldwide logo" class="footer-logo">
+          Albanian Aviators Worldwide
+        </div>
+        <p style="max-width: 280px; font-size: 0.9rem;">A global network connecting Albanian pilots and aviation professionals across the world.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="about.html">About Us</a>
+        <a href="members.html">Members</a>
+        <a href="news.html">News</a>
+      </div>
+      <div>
+        <h4>Get Involved</h4>
+        <a href="contact.html">Join the Network</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Albanian Aviators Worldwide. All rights reserved.</span>
+      <span>Made with care for the community.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
