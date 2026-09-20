@@ -160,7 +160,7 @@ p { margin: 0 0 16px; color: var(--gray-600); }
 }
 
 /* ===== Hero banner (full-width image) ===== */
-.hero-banner { line-height: 0; }
+.hero-banner { line-height: 0; padding: 0; }
 .hero-banner img { width: 100%; height: auto; display: block; }
 
 /* ===== Hero ===== */
