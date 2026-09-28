@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Members — Albanian Aviators Worldwide</title>
-<meta name="description" content="Meet pilots and aviation professionals from the Albanian Aviators Worldwide network.">
+<title>Mentorship — Albanian Aviators Worldwide</title>
+<meta name="description" content="Find a mentor in the Albanian Aviators Worldwide network — one-on-one guidance from experienced pilots and aviation professionals.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -21,8 +21,8 @@
     <nav class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="members.html" class="active">Members</a>
-      <a href="mentorship.html">Mentorship</a>
+      <a href="members.html">Members</a>
+      <a href="mentorship.html" class="active">Mentorship</a>
       <a href="news.html">News</a>
       <a href="contact.html">Contact</a>
       <a href="contact.html" class="btn btn-primary nav-cta">Join Us</a>
@@ -35,14 +35,52 @@
 
 <section class="page-hero">
   <div class="container">
-    <span class="eyebrow">Our Members</span>
-    <h1>Pilots flying under every flag.</h1>
-    <p>A sample of the aviators in our network — commercial, military, and cadet members from around the world.</p>
+    <span class="eyebrow">Mentorship Program</span>
+    <h1>Find a mentor. Fly further.</h1>
+    <p>We pair cadets, first officers, and aviation professionals with experienced members of our network for one-on-one guidance — from licensing to the left seat.</p>
   </div>
 </section>
 
 <section>
   <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">How it works</span>
+      <h2>Three steps to your first mentorship call.</h2>
+      <p>No forms in triplicate — just aviators helping aviators.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <h3>Browse mentors</h3>
+        <p>Explore profiles below and find someone who's flown the path you're on — by region, career stage, or specialty.</p>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>Request a match</h3>
+        <p>Reach out to a mentor directly, or tell us about your goals and we'll introduce you personally.</p>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Connect &amp; grow</h3>
+        <p>Meet regularly, get real answers, and build a relationship that lasts the length of your career.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Our Mentors</span>
+      <h2>Meet the aviators ready to help.</h2>
+    </div>
+
     <div class="filter-bar">
       <button class="filter-btn active" data-filter="all">All</button>
       <button class="filter-btn" data-filter="europe">Europe</button>
@@ -59,8 +97,9 @@
           <p>Based in Frankfurt. Type-rated on the A320 family with 14 years of commercial experience.</p>
           <div class="member-meta">
             <span class="tag">Germany</span>
-            <span class="tag">Mentor</span>
+            <span class="tag">Type Ratings &amp; Airline Hiring</span>
           </div>
+          <a href="contact.html?mentor=Arben%20Kola" class="btn btn-dark" style="width:100%; justify-content:center; margin-top:16px;">Request Mentorship</a>
         </div>
       </div>
 
@@ -72,46 +111,9 @@
           <p>Based in Toronto. Former flight instructor, now flying the Boeing 787 on transatlantic routes.</p>
           <div class="member-meta">
             <span class="tag">Canada</span>
-            <span class="tag">Mentor</span>
+            <span class="tag">Flight Instruction</span>
           </div>
-        </div>
-      </div>
-
-      <div class="member-card" data-region="middle-east">
-        <div class="member-photo">GM</div>
-        <div class="member-body">
-          <h3>Gent Meta</h3>
-          <span class="member-role">Captain, Emirates</span>
-          <p>Based in Dubai. Flies long-haul on the A380, with a background in the Albanian Air Force.</p>
-          <div class="member-meta">
-            <span class="tag">UAE</span>
-            <span class="tag">Military background</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-card" data-region="europe">
-        <div class="member-photo">SB</div>
-        <div class="member-body">
-          <h3>Sara Bardhi</h3>
-          <span class="member-role">First Officer, British Airways</span>
-          <p>Based in London. Recently completed type rating on the A350 after five years on short-haul.</p>
-          <div class="member-meta">
-            <span class="tag">United Kingdom</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-card" data-region="north-america">
-        <div class="member-photo">DL</div>
-        <div class="member-body">
-          <h3>Driton Leka</h3>
-          <span class="member-role">Cadet Pilot</span>
-          <p>Based in Chicago. Currently completing commercial licensing, paired with a mentor through our program.</p>
-          <div class="member-meta">
-            <span class="tag">USA</span>
-            <span class="tag">Cadet</span>
-          </div>
+          <a href="contact.html?mentor=Elira%20Dushku" class="btn btn-dark" style="width:100%; justify-content:center; margin-top:16px;">Request Mentorship</a>
         </div>
       </div>
 
@@ -123,21 +125,22 @@
           <p>Based in Doha. Over 8,000 flight hours across the Boeing 777 and 787 fleets.</p>
           <div class="member-meta">
             <span class="tag">Qatar</span>
-            <span class="tag">Mentor</span>
+            <span class="tag">Long-Haul &amp; Widebody</span>
           </div>
+          <a href="contact.html?mentor=Vlora%20Hoxha" class="btn btn-dark" style="width:100%; justify-content:center; margin-top:16px;">Request Mentorship</a>
         </div>
       </div>
     </div>
 
-    <p style="text-align:center; margin-top: 40px; font-size: 0.88rem;">Members shown here are illustrative examples — replace with real profiles once your directory is populated.</p>
+    <p style="text-align:center; margin-top: 40px; font-size: 0.88rem;">Mentors shown here are illustrative examples — replace with real profiles once your mentorship roster is populated.</p>
   </div>
 </section>
 
 <section class="cta-band">
   <div class="container">
-    <h2>Don't see yourself here yet?</h2>
-    <p>Join the network and get listed in the member directory.</p>
-    <a href="contact.html" class="btn" style="background: var(--white); color: var(--red);">Join the Network</a>
+    <h2>Don't see the right fit?</h2>
+    <p>Tell us about your background and goals, and we'll personally match you with a mentor from across the network.</p>
+    <a href="contact.html" class="btn" style="background: var(--white); color: var(--red);">Request a Mentor Match</a>
   </div>
 </section>
 

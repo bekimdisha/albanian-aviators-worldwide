@@ -30,6 +30,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Mentor request prefill (contact.html?mentor=Name, linked from mentorship.html)
+  const mentorName = new URLSearchParams(window.location.search).get("mentor");
+  if (mentorName) {
+    const eyebrow = document.getElementById("contact-eyebrow");
+    const heading = document.getElementById("contact-heading");
+    const lead = document.getElementById("contact-lead");
+    const message = document.getElementById("message");
+    if (eyebrow) eyebrow.textContent = "Mentorship Request";
+    if (heading) heading.textContent = `Requesting mentorship from ${mentorName}`;
+    if (lead) lead.textContent = "Tell us a bit about your background and goals, and we'll pass this along to your requested mentor.";
+    if (message) message.value = `Hi — I'd like to request mentorship from ${mentorName}.\n\nA bit about me and what I'm hoping to learn:\n`;
+  }
+
   // Contact form (static demo — no backend wired up)
   const form = document.getElementById("contact-form");
   if (form) {
